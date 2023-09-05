@@ -19,8 +19,14 @@
             "email": "accounts@sentry.io"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/turbulent/sentry-php"
+        }
+    ],
     "require": {
-        "sentry/sentry": "^3.19",
+        "sentry/sdk": "dev-fix/serializer-maxdepth-update",
         "http-interop/http-factory-guzzle": "^1.0",
         "symfony/http-client": "^4.3|^5.0|^6.0"
     },
